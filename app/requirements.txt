@@ -1,1 +1,14 @@
 pyodbc
+gensim
+nltk
+numpy
+azure-cognitiveservices-speech
+azure.cosmos
+azure.identity
+azure.keyvault.secrets
+azure.storage.queue
+chromadb
+json
+os
+openai
+subprocess
