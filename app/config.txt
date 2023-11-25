@@ -1,0 +1,5 @@
+vault_url="https://cptdatabasecredentials.vault.azure.net/"
+database_secret_name="dbadmin"
+metadata_secret_name="democpt"
+metadata_uri = "uri"
+container_name = "ContainerName"

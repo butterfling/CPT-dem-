@@ -1,0 +1,11 @@
+1. There are a total of 680 customer records in the database.
+
+2. Of these, 582 records contain encrypted email addresses, and 554 records contain encrypted social security numbers.
+
+3. However, 295 records contain non-encrypted financial information.
+
+4. Therefore, it is possible that some customer information is at risk of being accessed without consent.
+
+5. To comply with GDPR, all customer records should be encrypted, and consent should be obtained before storing any personal data.
+
+6. In addition, precautions should be taken to ensure that records are not stored in plain text format, which would make them vulnerable to being accessed without consent.
