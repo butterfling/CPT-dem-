@@ -1,0 +1,7 @@
+# Environment variables
+.env
+
+# Other files and folders to ignore
+node_modules/
+.DS_Store
+*.log
