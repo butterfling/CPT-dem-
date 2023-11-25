@@ -1,5 +1,6 @@
 import openai
 from authenticateDatabase import connect_to_sql_database
+import os
 
 # Database connection and cursor creation
 connect = connect_to_sql_database("https://cptdatabasecredentials.vault.azure.net/","dbadmin")
@@ -45,7 +46,7 @@ financial_information = count_non_encrypted_financial_information(cursor, table_
 data = f"total_records : {total_records}, Number of encrypted_emails in the database: {encrypted_emails}, encrypted_social_security_numbers: {encrypted_social_security_numbers} , count_non_encrypted_financial_information: {financial_information}"
 
 # OpenAI API key
-openai.api_key = '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'
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Function to get summary using OpenAI
 def summarize_with_openai(data):
